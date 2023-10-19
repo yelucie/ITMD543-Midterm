@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="style-dark.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Kodchasan' rel='stylesheet'>
-
     <link href="https://db.onlinewebfonts.com/c/5e605ff6994ce0e533aaf6cd51c6a33f?family=Pecita" rel="stylesheet">
     <script src="script.js"></script>
     <title>Lucie Ye's ITMD-543 Midterm Project</title>
@@ -14,13 +14,19 @@
     <header>
         <nav>
             <div class="home">
-                <a href="#home">Lucie's Midterm Project</a>
+                <a href="#">Lucie's Midterm Project</a>
             </div>
             <ul class="menu">
                 <li><a href="#html">HTML techniques</a></li>
                 <li><a href="#css">CSS techniques</a></li>
                 <li><a href="#js">JavaScript techniques</a></li>
             </ul>
+            <div class="dark-mode-toggle">
+                <label class="switch" for="darkModeToggle">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider round"></span>
+                </label>
+            </div>
         </nav>
     </header>
     <section id="home">
@@ -28,13 +34,17 @@
         <div class="content">
             <div class="description">
                 <p>
-                    Step into the world of my HTML, CSS, and JavaScript prowess!
+                    Step into the world of my <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> prowess!
                 </p>
                 <p>Here, you'll find a web page that serves as a testament to my proficiency in these fundamental web development technologies.
                     My goal is to demonstrate the depth of my skills by presenting a minimum of 5 distinct items for each capability. You'll discover 5 unique HTML implementations, 5 creative CSS designs, and 5 interactive JavaScript functionalities, all with the source code.
                 </p>
                 <p>
-                    Feel free to explore each section and check out the source code in the box below. Navigate through the nav bar or simply click on the corresponding boxes to jump to different sections. Enjoy your journey through my work!
+                    You can explore each section and check out the source code in the box at the right. To do this, you can navigate through the nav bar or simply click on the corresponding boxes to jump to different sections. <br>Enjoy your journey through my work!
+                </p>
+                <br>
+                <p>
+                    <strong><em>Feel free to check out the dark mode of this page on the navigation bar!</em></strong>
                 </p>
             </div>
             <div class="github">
@@ -78,7 +88,7 @@
             <p>
                 Now, let us delve into the <strong>5 CSS specifications</strong> pertinent to this assignment.
                 These include the judicious use of <strong>Flexbox</strong> and <strong>Grid</strong> for precise layout control, 
-                seamless <strong>transitions</strong> for an enhanced user experience, thoughtfully selected <strong>text fonts</strong> that elevates readability and aesthetics, and more!    
+                seamless <strong>transitions</strong> for navigation bar elements, thoughtfully selected <strong>text fonts</strong> that elevates readability and aesthetics, and more!    
             </p>
         </div>
         <div class="core">
@@ -91,11 +101,13 @@
                 <ul>
                     <li>Flexbox</li>
                     <li>Grid</li>
+                    <li>Background Color</li>
                     <li>Animation</li>
                     <li>Transformation</li>
                     <li>Transition</li>
                     <li>Text Font</li>
-                    <li>Background Color</li>
+                    <li>Translation</li>
+                    <li>X-axis Overflow</li>
                 </ul>
             </div>
         </div>
@@ -104,18 +116,26 @@
         <h2>JavaScript Techniques used on this page</h2>
         <div class="description">
             <p>
-                I have no clue at all haha :D <strong>yes</strong>
+                This section sheds light on the <strong>5 JavaScript specifications</strong> required for this assignment.
+                You'll find an array of engaging techniques showcased, including <strong>Event Listeners</strong> that bolster interactivity,
+                <strong>DOM Manipulation</strong> for seamless content control, a stylish <strong>Dark Mode</strong> feature, a functional <strong>Calculator</strong> for numeric operations,
+                and a <strong>Popup Box</strong> for interactive information verification. These elements collectively exemplify my diverse skill set and dedication to creating an engaging web experience.
             </p>
         </div>
         <div class="core">
             <div class="bonus">
-
+                Click on the button below to trigger the JavaScript event!
+                <br><br>
+                <button id="triggerButton">Trigger</button>
             </div>
             <div class="techniques">
                 <ul>
                     <li>Event Listener</li>
-                    <li>Modifying DOM Content</li>
-                    <li>RIP no idea</li>
+                    <li>DOM Manipulation</li>
+                    <li>Dark Mode</li>
+                    <li>Popup Box</li>
+                    <li>Ternary Operator</li>
+                    <li>Arrow Function</li>
                 </ul>
             </div>
         </div>

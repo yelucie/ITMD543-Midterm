@@ -1,0 +1,113 @@
+.dark-mode header {
+    background-color: rgb(15, 15, 15);
+}
+
+.dark-mode nav .home a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: rgb(226, 226, 226);
+}
+
+.dark-mode #home{
+    background-color: rgb(29, 33, 41);
+}
+
+.dark-mode #html {
+    background-color: #20291a;
+}
+
+.dark-mode #css {
+    background-color: rgb(55, 55, 56);
+}
+
+.dark-mode #js {
+    background-color:#251d0f;
+}
+
+.dark-mode section .bonus {
+    background-color: rgb(226, 226, 226);
+}
+
+.dark-mode section .description {
+    background-color: rgb(226, 226, 226);
+}
+
+.dark-mode section .github {
+    grid-column: 2;
+    grid-row: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #2A2E2C;
+    background-color: rgb(226, 226, 226);
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.dark-mode section .html-overview {
+    grid-column: 2;
+    grid-row: 2 / 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #2A2E2C;
+    background-color: rgb(226, 226, 226);
+
+    text-align: center;
+}
+
+.dark-mode section .css-overview {
+    grid-column: 3;
+    grid-row: 1 / 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #2A2E2C;
+    background-color: rgb(226, 226, 226);
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.dark-mode section .js-overview {
+    grid-column: 3;
+    grid-row: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #2A2E2C;
+    background-color: rgb(226, 226, 226);
+
+    text-align: center;
+}
+
+.dark-mode .techniques li {
+    border-radius: 25px;
+    border-color: #2A2E2C;
+    width: fit-content;
+    background-color: rgb(226, 226, 226);
+    padding: 15px;
+    margin: 2px;
+    text-align: center;
+}

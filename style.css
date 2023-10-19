@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-body{
-    background-color: rgb(183, 208, 255);
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -16,7 +16,7 @@ nav {
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
 }
 
 nav ul{
@@ -29,9 +29,14 @@ nav li {
     padding: 0px 40px;
 }
 
-nav a {
+nav .menu a {
     text-decoration: none;
     color: rgb(97, 152, 255);
+}
+
+nav .home a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -81,7 +86,7 @@ strong {
 }
 
 #js strong {
-    color: #ffd271;
+    color: #f1c057;
 }
 
 section {
@@ -92,6 +97,10 @@ section {
     padding: 60px;
     text-align: justify;
     align-items: end;
+}
+
+#home {
+    background-color: rgb(183, 208, 255);
 }
 
 #html {
@@ -161,6 +170,8 @@ section .github {
     border-color: #2A2E2C;
     background-color: white;
     margin-top: 20px;
+
+    text-align: center;
 }
 
 section .html-overview {
@@ -175,6 +186,8 @@ section .html-overview {
     border-radius: 20px;
     border-color: #2A2E2C;
     background-color: white;
+
+    text-align: center;
 }
 
 section .css-overview {
@@ -190,6 +203,8 @@ section .css-overview {
     border-color: #2A2E2C;
     background-color: white;
     margin-top: 20px;
+
+    text-align: center;
 }
 
 section .js-overview {
@@ -204,6 +219,8 @@ section .js-overview {
     border-radius: 20px;
     border-color: #2A2E2C;
     background-color: white;
+
+    text-align: center;
 }
 
 .core {
@@ -262,4 +279,58 @@ section .js-overview {
     animation-timing-function: linear; 
     animation-iteration-count: infinite; 
     animation-direction: alternate;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+  
+
+input:checked + .slider {
+    background-color: rgb(97, 152, 255);;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
 }
