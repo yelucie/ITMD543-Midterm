@@ -346,3 +346,8 @@ input:checked + .slider:before {
 .centered-content {
     text-align: center; 
 }
+
+#showQuote {
+    position: absolute;
+    margin-bottom: -80px;
+}
