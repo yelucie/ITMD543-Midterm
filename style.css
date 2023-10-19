@@ -275,7 +275,7 @@ section .js-overview {
     width: 80%;
     height: 60px;
     animation-name: colors; 
-    animation-duration: 5s; 
+    animation-duration: 8s; 
     animation-timing-function: linear; 
     animation-iteration-count: infinite; 
     animation-direction: alternate;
@@ -333,4 +333,16 @@ input:checked + .slider:before {
 .dark-mode-toggle {
     display: flex;
     align-items: center;
+}
+
+.code {
+    margin-top: 20px;
+}
+
+.code img {
+    margin-top: 10px;
+}
+
+.centered-content {
+    text-align: center; 
 }

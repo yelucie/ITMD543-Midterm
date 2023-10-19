@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", (evt) => {
 
     // Dark Mode for the page
     const darkModeToggle = document.getElementById("darkModeToggle");
-    
+
     darkModeToggle.addEventListener("change", () =>
         darkModeToggle.checked ? document.body.classList.add("dark-mode") : document.body.classList.remove("dark-mode")
     );
